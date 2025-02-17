@@ -54,3 +54,49 @@ By contributing to **TheraTune**, you're helping build a healthier, more inclusi
    ```bash
    git clone https://github.com/yourusername/TheraTune.git
    cd TheraTune
+Install Dependencies:
+
+
+pip install -r requirements.txt
+Set Up Environment Variables:
+Refer to the config.example.json for required environment configurations.
+
+Usage
+Fine-Tuning a Model
+Prepare Your Dataset:
+Ensure your dataset follows the format outlined in the Dataset Guidelines.
+
+Run the Fine-Tuning Script:
+
+python fine_tune.py --config config.json --dataset_path path/to/dataset.json
+
+Monitor Training:
+Use TensorBoard or your preferred logging tool to monitor progress.
+
+Evaluating & Testing
+Run evaluation scripts to assess the model's performance:
+
+python evaluate.py --model_path path/to/model --test_data path/to/test_dataset.json
+
+Contributing
+We welcome contributions from developers, researchers, and mental health professionals! Please read our Contributing Guidelines for more details on how to get involved, report issues, and submit pull requests.
+
+Key Areas for Contributions:
+
+Dataset curation and enhancements.
+Improvement of fine-tuning pipelines and scripts.
+Documentation and tutorials.
+Ethical and privacy enhancements.
+Community
+Join our growing community to collaborate and share your insights:
+
+Forum: TheraTune Community Forum
+Chat: Discord Server
+Newsletter: Subscribe to our newsletter for updates and community stories.
+License
+This project is licensed under the MIT License.
+
+Contact
+For inquiries or support, please open an issue on GitHub.
+
+Together, let's democratize AI therapy and build a healthier world—one dataset, one model, one community at a time!
